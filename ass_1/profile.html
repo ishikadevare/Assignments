@@ -8,17 +8,25 @@
 <body>
 
     <header>This is my profile page
+  <div class="topnav">
+  <a class="active" href="#self">About Me</a>
+  <a href="#skills">My skills</a>
+  <a href="#sign">Signature</a>
+  <a href="#langt">Languages known</a>
+  <a href="#contact">Contact through</a>
+</div>
 <link rel="stylesheet" type="text/css" href="profile.css" />
 <div class="container">
   <h1>Ishika Devare</h1>
-  <h3>Personal Profile</h3>
-  <a href="https://imgbb.com/"><img src="https://lh3.googleusercontent.com/a-/AFdZucq9eM5_6WLAt7ohL9_ieLaCvURlXffGHVTIEykP=s360-p-rw-no"  alt="profile-picture" border="0" /></a>
-  <section></section>
-  <h4>About Me</h4>
+    <h3>Personal Profile</h3>
+  <figure><a href="https://imgbb.com/"><img src="https://lh3.googleusercontent.com/a-/AFdZucq9eM5_6WLAt7ohL9_ieLaCvURlXffGHVTIEykP=s360-p-rw-no"  alt="profile-picture" border="0" /></a><section></section>
+      <figcaption> profile picture </figcaption>
+    </figure>
+  <h4 id="self">About Me</h4>
   <p>Hi, I'm Ishika Devare, I have a huge passion for web-development and programming. I love to learn and thrive from challenges.</p>
     </header>
   <fieldset>
-  <h4>My Skills</h4> 
+  <h4 id="skills">My Skills</h4> 
   <div class="listFlex">
   <h5> Technical Skills </h5><br><br>
     <div>
@@ -63,9 +71,9 @@
 </section>
     </div>
     </div>
-      <h4>Signature</h4> 
+      <h4 id="sign">Signature</h4> 
   <a href="https://imgbb.com/" ><img src="https://signaturely.com/wp-content/uploads/2020/04/unreadable-letters-signaturely.svg" width="10" height="80" /></a><br/><br/>
-  <h5> Languages known: </h5> 
+  <h5 id="lang"> Languages known: </h5> 
   <table align="center">
     <tr>
       <th>Languages</th>
@@ -88,7 +96,7 @@
         <td>Beginner</td>
     </tr>
   </table>
-<h5> Connect me through- </h5>
+<h5 id="contact"> Connect me through- </h5>
 <div class="listflex">
 <button> 
 <a href="https://api.whatsapp.com/send?phone=+917021734119"

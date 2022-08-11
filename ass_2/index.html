@@ -8,8 +8,8 @@
 </head>
 <body>
 
-  
-    <form style="text-align: center; ">
+  <center>
+    <form oninput="res.value = parseInt(quantity.value) * 150; " >
         <h1>Customized T-shirts</h1>
         <img width="250px" src="https://i.pinimg.com/originals/a4/fc/ed/a4fced78432efaea701c4efa2af93a14.png"><br><br>
         <label for="tagline"> Tagline for front: </label> 
@@ -48,8 +48,11 @@
             <option value="credit_card">Credit Card</option>
             <option value="debit_card">Debit Card</option>
           </select><br><br>
+        
+        Total amount: <output name="res"></output>
             
         <label for="submit"></label> 
         <input type="submit" id="submit" name="submit" value: Submit required /><br><br>
     </form>
+    </center>
 </body></html>

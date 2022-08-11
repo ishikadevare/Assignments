@@ -13,14 +13,18 @@
         <img width="250px" src="https://i.pinimg.com/originals/a4/fc/ed/a4fced78432efaea701c4efa2af93a14.png"><br><br>
         <label for="tagline"> Tagline for front: </label> 
         <input type="text" id="tagline" name="tagline" placeholder="Enter tagline" required><br><br>
+        
         <label for="tagline"> Tagline for back: </label> 
         <input type="text" id="tagline" name="tagline" required><br><br>
+        
         <label for="color"> Color for tshirt: </label> 
         <input type="color" id="color" name="color" required><br><br>
+        
         <label for="quantity"> Quantity for tshirt: </label> 
         <input type="number" id="quantity" name="quantity" maxlength="50" required
       oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" >
      <br><br>
+        
         <label for="size" required> Size: </label>
         <input type="radio" id="small" name="sizee" value="HTML" >
         <label for="small">Small</label>
@@ -28,13 +32,16 @@
         <label for="medium">Medium</label>
         <input type="radio" id="xl" name="sizee" value="xl">
         <label for="xl">XL</label><br><br>
-
+        
         <label for="date"> Date: </label> 
         <input type="date" id="date" name="date" required><br><br>
+        
         <label for="email">Email Id:</label>
-        <input type="email" id="em" name="email" placeholder="Enter emailid" required>
+        <input type="email" id="em" name="email" placeholder="Enter emailid" required> <br><br>
+        
         <label for="address"> Address: </label> 
         <textarea id="address" name="add" rows="4" cols="30" required><br><br>
+            
         <label for="payment"> Payment Method: </label> 
         <select name="payment" id="pay" required>
             <option value="emi">EMI</option>
@@ -42,6 +49,7 @@
             <option value="credit_card">Credit Card</option>
             <option value="debit_card">Debit Card</option>
           </select><br><br>
+            
         <label for="submit"></label> 
         <input type="submit" id="submit" name="submit" required><br><br>
     </form>

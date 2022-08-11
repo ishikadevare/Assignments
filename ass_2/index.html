@@ -4,10 +4,6 @@
     <style> 
     body { background-color: lightblue };
     textarea { resize: None };
-    .required:after {
-    content:" *";
-    color: red;
-  }
     </style>
 </head>
 <body>
@@ -17,16 +13,16 @@
         <h1>Customized T-shirts</h1>
         <img width="250px" src="https://i.pinimg.com/originals/a4/fc/ed/a4fced78432efaea701c4efa2af93a14.png"><br><br>
         <label for="tagline"> Tagline for front: </label> 
-        <input type="text" id="tagline" name="tagline" class="required" placeholder="Enter tagline" required><br><br>
+        <input type="text" id="tagline" name="tagline" placeholder="Enter tagline" required><br><br>
         
         <label for="tagline"> Tagline for back: </label> 
         <input type="text" id="tagline" name="tagline"  /><br><br>
         
         <label for="color"> Color for tshirt: </label> 
-        <input type="color" id="color" name="color" class="required" required /><br><br>
+        <input type="color" id="color" name="color" required /><br><br>
         
         <label for="cars">Tshirt Styles</label>
-          <select name="tshirts" id="cars" class="required" required>
+          <select name="tshirts" id="cars" required>
             <optgroup label="Half Sleeves">
               <option value="vneck">V Neck</option>
               <option value="rneck">Round Neck</option>
@@ -41,7 +37,7 @@
           <br><br>
         
         <label for="quantity"> Quantity for tshirt: </label> 
-        <input type="number" id="quantity" class="required" name="quantity" min="1" max="50" required /><br><br>
+        <input type="number" id="quantity"  name="quantity" min="1" max="50" required /><br><br>
         
         <label for="size" class="required" required> Size: </label>
         <input type="radio" id="small" name="sizee" value="HTML" />
@@ -52,16 +48,16 @@
         <label for="xl">XL</label><br><br>
         
         <label for="date"> Date: </label> 
-        <input type="date" id="date" class="required" name="date" required /><br><br>
+        <input type="date" id="date" name="date" required /><br><br>
         
         <label for="email">Email Id:</label>
-        <input type="email" id="em" name="email" class="required" placeholder="Enter emailid" required /> <br><br>
+        <input type="email" id="em" name="email" placeholder="Enter emailid" required /> <br><br>
         
         <label for="address"> Address: </label> 
-        <textarea rows={3} cols={22} class="required" required></textarea> <br><br>
+        <textarea rows={3} cols={22} required></textarea> <br><br>
             
         <label for="payment"> Payment Method: </label> 
-        <select name="payment" id="pay" class="required" required>
+        <select name="payment" id="pay" required>
             <option value="emi">EMI</option>
             <option value="cod">COD</option>
             <option value="credit_card">Credit Card</option>

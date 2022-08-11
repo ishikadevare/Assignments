@@ -15,32 +15,30 @@
         <input type="text" id="tagline" name="tagline" placeholder="Enter tagline" required><br><br>
         
         <label for="tagline"> Tagline for back: </label> 
-        <input type="text" id="tagline" name="tagline" required><br><br>
+        <input type="text" id="tagline" name="tagline" required /><br><br>
         
         <label for="color"> Color for tshirt: </label> 
-        <input type="color" id="color" name="color" required><br><br>
+        <input type="color" id="color" name="color" required /><br><br>
         
         <label for="quantity"> Quantity for tshirt: </label> 
-        <input type="number" id="quantity" name="quantity" maxlength="50" required
-      oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" >
-     <br><br>
+        <input type="number" id="quantity" name="quantity" maxlength="50" required /><br><br>
         
         <label for="size" required> Size: </label>
-        <input type="radio" id="small" name="sizee" value="HTML" >
+        <input type="radio" id="small" name="sizee" value="HTML" />
         <label for="small">Small</label>
-        <input type="radio" id="medium" name="sizee" value="medium" >
+        <input type="radio" id="medium" name="sizee" value="medium" />
         <label for="medium">Medium</label>
-        <input type="radio" id="xl" name="sizee" value="xl">
+        <input type="radio" id="xl" name="sizee" value="xl" />
         <label for="xl">XL</label><br><br>
         
         <label for="date"> Date: </label> 
-        <input type="date" id="date" name="date" required><br><br>
+        <input type="date" id="date" name="date" required /><br><br>
         
         <label for="email">Email Id:</label>
-        <input type="email" id="em" name="email" placeholder="Enter emailid" required> <br><br>
+        <input type="email" id="em" name="email" placeholder="Enter emailid" required /> <br><br>
         
         <label for="address"> Address: </label> 
-        <textarea id="address" name="add" rows="4" cols="30" required><br><br>
+        <textarea id="address" name="add" rows={3} cols={22} required /><br><br>
             
         <label for="payment"> Payment Method: </label> 
         <select name="payment" id="pay" required>
@@ -51,6 +49,6 @@
           </select><br><br>
             
         <label for="submit"></label> 
-        <input type="submit" id="submit" name="submit" required><br><br>
+        <input type="submit" id="submit" name="submit" value: Submit required /><br><br>
     </form>
 </body></html>

@@ -1,17 +1,17 @@
 <html>
 <head> 
     <title> Customized Tshirts Shop</title>
-    <style> 
-    body { background-color: lightblue };
-    textarea { resize: None };
+    <style>
+    * { font-size: 17px ;} 
+    body { background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);}
+    textarea { resize: None ;}
+    form.center {text-align: center };
     </style>
 </head>
 <body>
-
-  <center>
-    <form oninput="res.value = parseInt(quantity.value) * 150; " >
-        <h1>Customized T-shirts</h1>
-        <img width="250px" src="https://i.pinimg.com/originals/a4/fc/ed/a4fced78432efaea701c4efa2af93a14.png"><br><br>
+    <form class="center" oninput="res.value = parseInt(quantity.value) * 150; " >
+        <h1 style="font-size: 2em; color: white; background-color: maroon;">Customized T-shirts</h1>
+        <img style=" width: 250px; border: 5px solid #555" src="https://i.pinimg.com/originals/a4/fc/ed/a4fced78432efaea701c4efa2af93a14.png"><br><br>
         <label for="tagline"> Tagline for front: </label> 
         <input type="text" id="tagline" name="tagline" placeholder="Enter tagline" required><br><br>
         
@@ -69,5 +69,6 @@
         <label for="submit"></label> 
         <input type="submit" id="submit" name="submit" value: Submit required /><br><br>
     </form>
-    </center>
-</body></html>
+</body>
+</html>
+
